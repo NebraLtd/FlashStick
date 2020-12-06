@@ -5,9 +5,9 @@
 "2";"100nF";"C-EUC0603";"C0603";"C1, C8";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "4";"10uF";"C-EUC0805";"C0805";"C2, C3, C4, C5";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "1";"330uF";"CPOL-EUD";"PANASONIC_D";"C7";"POLARIZED CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"2";"470r";"R-EU_R0603";"R0603";"R4, R9";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "1";"47k";"R-EU_R0603";"R0603";"R7";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "1";"47uF";"C-EUC1206";"C1206";"C6";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"820r";"R-EU_R0603";"R0603";"R4, R9";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "1";"ACT";"LEDCHIP-LED0603";"CHIP-LED0603";"LED2";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"26";"";"";"";"";"";"";
 "2";"BOURNS_SRN4018-4R7MBOURNS_SRN4018-4R7M_0_0";"BOURNS_SRN4018-4R7MBOURNS_SRN4018-4R7M_0_0";"BOURNS_SRN4018-4R7M_0";"L1, L2";"Fixed Inductors 4.7uH 20% SMD 4018";"No";"http://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf";"0.084 Ohm";"IND 4.7µH Shielded Wirewound Inductor 1.9A 84 mOhm Max Nonstandard";"SRN4018-4R7MCT-ND";"octopart";"4.7µH";"1.9A";"2A";"yes";"Bourns";"652-SRN4018-4R7M";"SRN4018-4R7M";"2";"ed5a25d49750329d";"IND_SMD_4MM0_4MM0";"";"L";"yes";"+120°C";"-25°C";"20%";"";
 "2";"DIODES_DMG1012T-7DIODES_DMG1012T-7_0_0";"DIODES_DMG1012T-7DIODES_DMG1012T-7_0_0";"DIODES_DMG1012T-7_0";"Q1, Q2";"N-CHANNEL ENHANCEMENT MODE MOSFET";"No";"https://www.diodes.com/assets/Datasheets/ds31783.pdf";"";"TRANS MOSFET N-CH 20V 630MA SOT-523";"DMG1012T-7DICT-ND";"";"";"";"";"yes";"Diodes";"621-DMG1012T-7";"DMG1012T-7";"";"";"SOT523";"";"Q";"yes";"+150°C";"-55°C";"";"";
