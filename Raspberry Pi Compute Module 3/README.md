@@ -37,6 +37,11 @@ This PCB can be quickly ordered directly from PCB companies using the following 
 
 Or upload the Gerbers / BRD to your choice of Fab!
 
+#Components
+The BOM for shopping is in this folder.
+
+Alternatively it's also at Octopart https://www.digikey.com/short/zvwpn0
+
 # Assembly
 
 We'll produce a little guide showing how we assemble them, and recommended pick and place order when doing it manually.
