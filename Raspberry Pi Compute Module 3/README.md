@@ -4,16 +4,17 @@
 
 ![Compute Module 1/3/3+ FlashStick](https://raw.githubusercontent.com/NebraLtd/FlashStick/main/Raspberry%20Pi%20Compute%20Module%203/render-1.png)
 
-This FlashStick is designed for programming the Raspberry Pi Compute Module versions 1, 3 and 3+
+This FlashStick is designed for programming the Raspberry Pi Compute Module versions 1, 3 and 3+.
 
 # How To Use
 
 Operation should be as simple as:
 
-1. Insert Compute Module 1,3/3+ into FlashStick.
+1. Insert Compute Module 1, 3 or 3+ into FlashStick.
 2. Ensure Jumper is in position 2+3.
 3. Plug into Computer.
-4. Load USB Boot Software (Or use Balena Etcha) to boot the CM into Programming Mode.
+4. Load USB Boot Software (Or use Balena Etcher
+) to boot the CM into Programming Mode.
 5. Flash image like normal.
 6. Unplug stick from computer.
 7. Remove compute Module.
@@ -22,12 +23,11 @@ Operation should be as simple as:
 
 # PCB Specification
 
-Thickness: 1.6mm
-Size: 41x122mm
-Colour: Whatever you like, we went for blue!
-Surface Finish: You'll likely find assembly easier with ENIG due to the Power ICs package.
-
-Stencil: Recommended, top only. No Frame Needed.
+* **Thickness**: 1.6mm
+* **Size**: 41x122mm
+* **Colour**: Whatever you like, we went for blue!
+* **Surface Finish**: You'll likely find assembly easier with ENIG due to the Power ICs package.
+* **Stencil**: Recommended, top only. No Frame Needed.
 
 This PCB can be quickly ordered directly from PCB companies using the following links:
 * JLCPCB - CN Based - ~ $30 -
@@ -37,10 +37,11 @@ This PCB can be quickly ordered directly from PCB companies using the following 
 
 Or upload the Gerbers / BRD to your choice of Fab!
 
-#Components
+# Components
+
 The BOM for shopping is in this folder.
 
-Alternatively it's also at Octopart https://www.digikey.com/short/zvwpn0
+Alternatively it's also available at [Octopart](https://octopart.com/bom-tool/03ZTTnCO) or on [Digi-key](https://www.digikey.com/short/zvwpn0)
 
 # Assembly
 
