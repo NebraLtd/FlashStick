@@ -22,11 +22,16 @@ Operation should be as simple as:
 
 # PCB Specification
 
-Thickness:
+Thickness: 1.6mm
+Size: 41x122mm
+Colour: Whatever you like, we went for blue!
+Surface Finish: You'll likely find assembly easier with ENIG due to the Power ICs package.
+
+Stencil: Recommended, top only. No Frame Needed.
 
 This PCB can be quickly ordered directly from PCB companies using the following links:
 * JLCPCB - CN Based - ~ $30 -
-* PCBWay - CN Based - ~ $60 - 
+* PCBWay - CN Based - ~ $60 -
 * OSHPark - US Based - ~ $70 -
 * Aisler - EU Based - ~ $55 -
 
