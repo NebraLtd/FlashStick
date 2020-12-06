@@ -13,5 +13,18 @@ This PCB can be ordered directly from PCBway using the following links:
 
 # How To Use
 
+Operation should be as simple as:
+
+1. Insert Compute Module 1,3/3+ into FlashStick.
+2. Ensure Jumper is in position 2+3.
+3. Plug into Computer.
+4. Load USB Boot Software (Or use Balena Etcha) to boot the CM into Programming Mode.
+5. Flash image like normal.
+6. Unplug stick from computer.
+7. Remove compute Module.
+
+*Care should be taken when handling the module and CM, handle from edge to reduce risk of ESD*
+
+
 
 # Assembly Guide
