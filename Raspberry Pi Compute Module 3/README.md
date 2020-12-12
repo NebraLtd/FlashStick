@@ -48,3 +48,9 @@ Alternatively it's also available at [Octopart](https://octopart.com/bom-tool/03
 We'll produce a little guide showing how we assemble them, and recommended pick and place order when doing it manually.
 
 It's highly recommended for a Stencil to be used.
+
+# Open Source Hardware Certification
+
+This project is released under the [license shown here](https://github.com/NebraLtd/FlashStick/blob/main/LICENSE.md) and is also certified as [open source hardware](https://certification.oshwa.org/uk000023.html) by the [Open Source Hardware Association](https://www.oshwa.org/):
+
+<img src="https://raw.githubusercontent.com/NebraLtd/FlashStick/main/Raspberry%20Pi%20Compute%20Module%203/OSHW_mark_UK000023.png" width=50% height=50%>
