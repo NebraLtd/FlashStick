@@ -1,6 +1,6 @@
 # Raspberry Pi Compute Module 1/3/3+ FlashStick
 
-## Disclaimer - Currently untested design. Prototypes will be assembled soon.
+## Disclaimer - First Prototypes work fine, however slight tweaks have been made. These boards are awaiting PCBA.
 
 ![Compute Module 1/3/3+ FlashStick](https://raw.githubusercontent.com/NebraLtd/FlashStick/main/Raspberry%20Pi%20Compute%20Module%203/render-1.png)
 
@@ -13,8 +13,7 @@ Operation should be as simple as:
 1. Insert Compute Module 1, 3 or 3+ into FlashStick.
 2. Ensure Jumper is in position 2+3.
 3. Plug into Computer.
-4. Load USB Boot Software (Or use Balena Etcher
-) to boot the CM into Programming Mode.
+4. Load USB Boot Software (Or use Balena Etcher) to boot the CM into Programming Mode.
 5. Flash image like normal.
 6. Unplug stick from computer.
 7. Remove compute Module.
