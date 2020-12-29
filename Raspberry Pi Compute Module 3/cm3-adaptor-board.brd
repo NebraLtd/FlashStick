@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -2394,8 +2394,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="6.366" y="4.854" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="9.341" y="4.854" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="JP1" library="decade" package="USB-A-H" value="USB-A-H" x="3.81" y="20.32" smashed="yes">
-<attribute name="NAME" x="3.97" y="12.2" size="1.27" layer="25" rot="R180"/>
+<element name="JP1" library="decade" package="USB-A-H" value="USB-A-H" x="2.794" y="20.32" smashed="yes">
+<attribute name="NAME" x="2.954" y="12.2" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="118.364" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.094" y="24.765" size="1.27" layer="25" ratio="10"/>
@@ -2670,8 +2670,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.494" y1="23.368" x2="14.732" y2="22.606" width="0.1524" layer="1"/>
 <wire x1="22.86" y1="21.932" x2="21.91" y2="22.882" width="0.1524" layer="1"/>
 <wire x1="21.91" y1="22.882" x2="21.91" y2="24.13" width="0.1524" layer="1"/>
-<wire x1="6.21" y1="16.82" x2="7.366" y2="15.664" width="0.254" layer="1"/>
-<wire x1="7.366" y1="15.664" x2="7.366" y2="15.494" width="0.254" layer="1"/>
 <wire x1="7.366" y1="15.494" x2="7.366" y2="9.004" width="0.254" layer="1"/>
 <wire x1="7.366" y1="15.494" x2="12.192" y2="15.494" width="0.254" layer="1"/>
 <wire x1="13.175" y1="16.477" x2="13.175" y2="18.255" width="0.254" layer="1"/>
@@ -2714,6 +2712,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="106.045" y1="4.445" x2="116.205" y2="4.445" width="0.2032" layer="16"/>
 <wire x1="118.364" y1="6.604" x2="118.364" y2="17.78" width="0.2032" layer="16"/>
 <wire x1="116.205" y1="4.445" x2="118.364" y2="6.604" width="0.2032" layer="16"/>
+<wire x1="7.056" y1="16.82" x2="5.194" y2="16.82" width="0.254" layer="1"/>
+<wire x1="7.366" y1="15.494" x2="7.366" y2="16.51" width="0.254" layer="1"/>
+<wire x1="7.366" y1="16.51" x2="7.056" y2="16.82" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="PCB1" pad="191"/>
@@ -2867,9 +2868,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="CM_N" class="1">
 <contactref element="PCB1" pad="167"/>
 <contactref element="JP1" pad="D-"/>
-<wire x1="6.21" y1="19.193" x2="7.1719" y2="20.1549" width="0.1524" layer="16"/>
-<wire x1="7.1719" y1="20.1549" x2="9.525" y2="20.1549" width="0.1524" layer="16"/>
-<wire x1="9.525" y1="20.1549" x2="10.795" y2="18.8849" width="0.1524" layer="16"/>
+<wire x1="10.795" y1="18.8849" x2="9.525" y2="20.1549" width="0.1524" layer="16"/>
 <wire x1="15.24" y1="3.673225" x2="15.433425" y2="3.4798" width="0.1524" layer="16"/>
 <wire x1="87.3252" y1="8.6388" x2="87.5764" y2="8.89" width="0.1524" layer="16"/>
 <via x="87.5764" y="8.89" extent="1-16" drill="0.35" shape="octagon"/>
@@ -2885,17 +2884,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="87.1631" y1="6.50875" x2="87.1631" y2="5.9757" width="0.1524" layer="1"/>
 <wire x1="87.3252" y1="6.67085" x2="87.1631" y2="6.50875" width="0.1524" layer="1"/>
 <wire x1="87.3252" y1="8.6388" x2="87.3252" y2="6.67085" width="0.1524" layer="1"/>
+<wire x1="6.1559" y1="20.1549" x2="5.194" y2="19.193" width="0.1524" layer="16"/>
+<wire x1="9.525" y1="20.1549" x2="6.1559" y2="20.1549" width="0.1524" layer="16"/>
 </signal>
 <signal name="CM_P" class="1">
 <contactref element="PCB1" pad="165"/>
 <contactref element="JP1" pad="D+"/>
-<wire x1="6.21" y1="21.447" x2="7.1719" y2="20.4851" width="0.1524" layer="16"/>
-<wire x1="9.661775" y1="20.4851" x2="11.1252" y2="19.021675" width="0.1524" layer="16"/>
+<wire x1="11.1252" y1="19.021675" x2="9.661775" y2="20.4851" width="0.1524" layer="16"/>
 <wire x1="15.5702" y1="8.5598" x2="15.5702" y2="3.81" width="0.1524" layer="16"/>
 <wire x1="86.995" y1="8.6388" x2="86.7438" y2="8.89" width="0.1524" layer="16"/>
 <via x="86.7438" y="8.89" extent="1-16" drill="0.35" shape="octagon"/>
 <wire x1="86.7438" y1="8.89" x2="86.995" y2="8.6388" width="0.1524" layer="1"/>
-<wire x1="7.1719" y1="20.4851" x2="9.661775" y2="20.4851" width="0.1524" layer="16"/>
 <wire x1="11.1252" y1="19.021675" x2="11.1252" y2="13.0048" width="0.1524" layer="16"/>
 <wire x1="11.1252" y1="13.0048" x2="15.5702" y2="8.5598" width="0.1524" layer="16"/>
 <wire x1="15.5702" y1="3.81" x2="83.185" y2="3.81" width="0.1524" layer="16"/>
@@ -2906,6 +2905,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="86.995" y1="6.807625" x2="86.8329" y2="6.645525" width="0.1524" layer="1"/>
 <wire x1="86.8329" y1="6.645525" x2="86.8329" y2="5.9757" width="0.1524" layer="1"/>
 <wire x1="86.995" y1="8.6388" x2="86.995" y2="6.807625" width="0.1524" layer="1"/>
+<wire x1="6.1559" y1="20.4851" x2="5.194" y2="21.447" width="0.1524" layer="16"/>
+<wire x1="9.661775" y1="20.4851" x2="6.1559" y2="20.4851" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="12"/>
