@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JumperCap
+D Jumper, Shorting Cap
+K jumper shorting
+F ~
+$ENDCMP
+#
+#End Doc Library

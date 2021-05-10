@@ -1,0 +1,15 @@
+### Module positions - created on 5/10/2021 2:44:33 PM ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val        Package                   PosX       PosY       Rot  Side
+C1        330uF      CP_Elec_6.3x5.9        93.2400   -91.5300  180.0000  top
+LED1      RED        LED_0603_1608Metric   166.1200   -69.7300    0.0000  top
+LED2      GREEN      LED_0603_1608Metric   166.0500   -74.0300    0.0000  top
+LED3      BLUE       LED_0603_1608Metric   166.1000   -78.4000    0.0000  top
+R1        1k         R_0603_1608Metric     157.3200   -71.8500    0.0000  top
+R2        1k         R_0603_1608Metric     157.3600   -75.4200  180.0000  top
+R3        1k         R_0603_1608Metric     157.3500   -78.8300    0.0000  top
+SW1       SW_SPDT    SW_SPDT_CL-SB-12B     164.5700   -87.6600  270.0000  top
+U1        74LVC1G07  SOT-353_SC-70-5       157.3900   -68.2800  270.0000  top
+## End

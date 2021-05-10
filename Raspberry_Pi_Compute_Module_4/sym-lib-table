@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FlashStickCM4)(type Legacy)(uri ${KIPRJMOD}/FlashStickCM4.lib)(options "")(descr ""))
+)
