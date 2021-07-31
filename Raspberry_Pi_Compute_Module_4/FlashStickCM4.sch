@@ -221,36 +221,6 @@ F 7 "https://www.digikey.com/en/products/detail/raspberry-pi/SC0278/13530937" H 
 	1    4000 6825
 	1    0    0    -1  
 $EndComp
-$Comp
-L FlashStickCM4:Rpi_CM4_ConnA P1
-U 1 1 608487F5
-P 3475 900
-F 0 "P1" H 3725 1050 50  0000 C CNN
-F 1 "Rpi_CM4_ConnA" H 5375 1050 50  0000 C CNN
-F 2 "FlashStickCM4:DF40HC(3.0)-100DS-0.4v-CM4A" H 3530 1605 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/185/DF40_CL0594_7710_6_00_2d-1613521.pdf" H 3530 1605 50  0001 C CNN
-F 4 "Hirose" H 3475 900 50  0001 C CNN "Manufacturer"
-F 5 "DF40HC(3.0)-100DS-0.4V(51" H 3475 900 50  0001 C CNN "Part Number"
-F 6 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM" H 3475 900 50  0001 C CNN "Description"
-F 7 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 3475 900 50  0001 C CNN "Supplier Link"
-	1    3475 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3475 4700 3475 4800
-Connection ~ 3475 4800
-Wire Wire Line
-	3475 4800 3475 4900
-Connection ~ 3475 4900
-Wire Wire Line
-	3475 4900 3475 5000
-Connection ~ 3475 5000
-Wire Wire Line
-	3475 5000 3475 5100
-Connection ~ 3475 5100
-Wire Wire Line
-	3475 5100 3475 5200
-Connection ~ 3475 4700
 Wire Wire Line
 	3475 900  3400 900 
 Wire Wire Line
@@ -418,10 +388,7 @@ F 3 "" H 6100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5875 5000 6100 5000
-Wire Wire Line
-	5875 5100 5875 5000
-Connection ~ 5875 5000
+	5875 5000 5925 5000
 $Comp
 L power:+3.3V #PWR012
 U 1 1 6090E297
@@ -433,22 +400,6 @@ F 3 "" H 2875 1275 50  0001 C CNN
 	1    2875 1275
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+1V8 #PWR018
-U 1 1 6093742D
-P 6100 5200
-F 0 "#PWR018" H 6100 5050 50  0001 C CNN
-F 1 "+1V8" H 6100 5350 50  0000 C CNN
-F 2 "" H 6100 5200 50  0001 C CNN
-F 3 "" H 6100 5200 50  0001 C CNN
-	1    6100 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5875 5200 6100 5200
-Wire Wire Line
-	5875 5300 5875 5200
-Connection ~ 5875 5200
 Wire Wire Line
 	2875 1275 2875 1325
 Wire Wire Line
@@ -741,7 +692,6 @@ NoConn ~ 5875 4000
 NoConn ~ 5875 4200
 NoConn ~ 5875 4300
 NoConn ~ 5875 4400
-NoConn ~ 5875 4700
 NoConn ~ 5875 4800
 NoConn ~ 5875 4900
 NoConn ~ 5875 5400
@@ -922,4 +872,44 @@ F 3 "~" H 6500 7650 50  0001 C CNN
 	1    6500 7650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5875 4700 5925 4700
+Wire Wire Line
+	5925 4700 5925 5000
+Connection ~ 5925 5000
+Wire Wire Line
+	5925 5000 6100 5000
+Wire Wire Line
+	5875 5100 5875 5000
+$Comp
+L FlashStickCM4:Rpi_CM4_ConnA P1
+U 1 1 608487F5
+P 3475 900
+F 0 "P1" H 3725 1050 50  0000 C CNN
+F 1 "Rpi_CM4_ConnA" H 5375 1050 50  0000 C CNN
+F 2 "FlashStickCM4:DF40HC(3.0)-100DS-0.4v-CM4A" H 3530 1605 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/185/DF40_CL0594_7710_6_00_2d-1613521.pdf" H 3530 1605 50  0001 C CNN
+F 4 "Hirose" H 3475 900 50  0001 C CNN "Manufacturer"
+F 5 "DF40HC(3.0)-100DS-0.4V(51" H 3475 900 50  0001 C CNN "Part Number"
+F 6 "Board to Board & Mezzanine Connectors 100P 2R 3MM RECPT SMT VERT 0.4MM" H 3475 900 50  0001 C CNN "Description"
+F 7 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V51?qs=%252BAZVS4b%2FkgIV%252B3vHYy2dCA%3D%3D" H 3475 900 50  0001 C CNN "Supplier Link"
+	1    3475 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 5100 3475 5200
+Connection ~ 5875 5000
+Wire Wire Line
+	3475 5100 3475 5000
+Connection ~ 3475 5100
+Connection ~ 3475 4700
+Connection ~ 3475 4800
+Wire Wire Line
+	3475 4800 3475 4700
+Connection ~ 3475 4900
+Wire Wire Line
+	3475 4900 3475 4800
+Connection ~ 3475 5000
+Wire Wire Line
+	3475 5000 3475 4900
 $EndSCHEMATC
